@@ -8,7 +8,7 @@ public class Receptor {
     final HttpServer httpServer;
 
     public Receptor(ServiceConfig config) {
-        httpServer = HttpServer.create(config.httpserver);
+        httpServer = HttpServer.create(config.httpserver, RestApi.class);
     }
 
     public void run() {

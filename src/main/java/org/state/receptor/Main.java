@@ -16,7 +16,6 @@ public class Main {
         receptor.run();
 
         System.out.println("Execution Completted.");
-
     }
 
 }
